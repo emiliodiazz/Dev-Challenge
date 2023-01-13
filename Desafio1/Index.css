@@ -1,0 +1,81 @@
+body{
+    background-color: #FFFFFF;
+}
+.img-container{
+    width: 40rem;
+    border-radius: 3%;
+    border-style: 1px solid black;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-nav{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+#btn{
+    background-color: black;
+    width: 15rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    
+}
+.container-text{
+    margin-top: 10rem;
+    margin-right: 15rem;
+}
+.title{
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;;
+}
+.parrafo{
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;;
+}
+.nav-txt{
+    font-size: 2rem;
+    font-family: 'Inconsolata', monospace;
+}
+.footer{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 900px){
+    .content-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-text{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .img-container{
+        width: 30rem;
+        border-radius: 3%;
+        border-style: 1px solid black;
+    }
+    .title{
+        font-size: 40px;
+        font-family: 'Roboto Mono', monospace;;
+    }
+    .parrafo{
+        font-size: 25px;
+        font-family: 'Roboto Mono', monospace;;
+    }
+    .nav-txt{
+        font-size: 25px;
+        font-family: 'Inconsolata', monospace;
+    }
+    .container-img{
+        text-align:center;
+    }
+
+}
